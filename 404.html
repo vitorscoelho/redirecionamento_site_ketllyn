@@ -3,18 +3,33 @@
   <head>
     <title>Kettly Férnandes Artes</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta
+    <!-- <meta
       http-equiv="refresh"
       content="7;url=https://www.kettlyfernandes.com.br"
-    />
+    /> -->
+    <style>
+      body {
+        font-size: 1.4rem;
+      }
+      main {
+        margin-top: 1em;
+      }
+      p {
+        margin: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
+    </style>
   </head>
 
   <body>
-    <p>Olá! Este endereço que você está tentando visitar não existe mais.</p>
-    <p id="contador"></p>
-    <p>
-      <a href="https://www.kettlyfernandes.com.br"> Ou clique aqui! </a>
-    </p>
+    <main>
+      <p>Olá! Este endereço que você está tentando visitar não existe mais.</p>
+      <p id="contador"></p>
+      <p>
+        <a href="https://www.kettlyfernandes.com.br"> Ou clique aqui! </a>
+      </p>
+    </main>
     <script>
       function textoContador(texto) {
         document.getElementById("contador").innerText = texto;
